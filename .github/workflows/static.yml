@@ -28,6 +28,10 @@ env:
   SIMPLE_MODE: ${{ vars.SIMPLE_MODE }}
   BASE_URL: ${{ vars.BASE_URL }}/
   SITE_URL: ${{ vars.SITE_URL }}
+  VITE_BRAND_NAME: ${{ vars.VITE_BRAND_NAME }}
+  ROBOTS_NOINDEX: ${{ vars.ROBOTS_NOINDEX }}
+  VITE_BRAND_LOGO: ${{ vars.VITE_BRAND_LOGO }}
+  VITE_DEFAULT_LANGUAGE: ${{ vars.VITE_DEFAULT_LANGUAGE }}
   HUSKY: 0
 
 jobs:
